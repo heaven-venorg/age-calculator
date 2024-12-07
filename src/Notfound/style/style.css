@@ -1,0 +1,12 @@
+/* Style Not Found */
+#notfound {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 200px;
+  filter: drop-shadow(0px 0px 10px #ff5752);
+}
