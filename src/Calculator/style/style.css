@@ -1,0 +1,52 @@
+/* Style Calculator */
+#age {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: whitesmoke;
+}
+
+.title-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img {
+  width: 150px;
+}
+
+.title {
+  font-size: 40px;
+  color: #ff5752;
+  font-weight: 900;
+  letter-spacing: 1.5;
+}
+
+.input {
+  background-color: white;
+  color: #ff5752;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #ff5752;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Responsif */
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 30px;
+    color: #ff5752;
+    font-weight: 900;
+    letter-spacing: 1.5;
+  }
+}

@@ -1,0 +1,60 @@
+/* Style Landing */
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: whitesmoke;
+}
+
+.img {
+  width: 250px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  color: #ff5752;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.content p {
+  color: #323231;
+}
+
+.btn {
+  font-family: "Rubik Dirt", system-ui;
+  letter-spacing: 5px;
+  width: auto;
+  margin-top: 15px;
+  padding: 10px 30px;
+  border: 2px solid #ff5752;
+  color: #f94a44;
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 10px #ff5752;
+  transition: 500ms;
+}
+
+/* Responsif */
+@media only screen and (max-width: 700px) {
+  .content h1 {
+    color: #ff5752;
+    font-weight: 900;
+    font-size: 30px;
+  }
+}
