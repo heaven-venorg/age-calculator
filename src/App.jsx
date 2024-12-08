@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import Landing from "./Landing/Landing";
-import Calculator from "./Calculator/Calculator";
-import Notfound from "./Notfound/Notfound";
-
+import Landing from "./component/Landing/Landing";
+import Calculator from "./component/Calculator/Calculator";
+import Notfound from "./component/Notfound/Notfound";
 function App() {
   return (
     <Router>
