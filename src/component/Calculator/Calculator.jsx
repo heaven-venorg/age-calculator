@@ -43,9 +43,11 @@ function Calculator() {
         />
       </div>
 
-      {age !== null && <p className="result">Result : Your Age Is {age}</p>}
+      {age !== null && (
+        <p className="result">Result : Your Age Is {age} Years Old</p>
+      )}
       {birthdate && age === null && (
-        <p className="error">Please enter is Valid</p>
+        <p className="error">Please Enter Valid Birthdate</p>
       )}
     </section>
   );
