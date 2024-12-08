@@ -2,7 +2,7 @@ import "./style/style.css";
 import Img1 from "./assets/img.png";
 
 function Landing() {
-  const linkToCalculator = "../Calculator";
+  const linkToCalculator = "../Calculator/Calculator";
   const toCalculator = () => {
     window.location.href = linkToCalculator;
   };
