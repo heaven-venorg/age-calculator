@@ -1,8 +1,9 @@
 import "./style/style.css";
 import Img1 from "./assets/img.png";
+import Calculator from "../Calculator/Calculator";
 
 function Landing() {
-  const linkToCalculator = "../Calculator/Calculator";
+  const linkToCalculator = <Calculator />;
   const toCalculator = () => {
     window.location.href = linkToCalculator;
   };
